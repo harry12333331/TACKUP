@@ -2,8 +2,7 @@ import { useState } from "react";
 import { Wrapper } from "../components/Wrapper";
 
 export function Landing(){
-    const [title,settitle]=useState([])
-    const [description,setdes]=useState([])
+
     return (
         <div>
             <div className="flex justify-center h-25 pt-8">welco  ajnedjsf jkdnkjasnkjnskjfncsknfkjme</div><br></br>
@@ -18,13 +17,6 @@ export function Landing(){
                 </div>
             </div>
             
-                <label for="title">title</label>
-                <input  onChange={(e)=>{settitle(title.push(e.target.value))}}type="text" id="title" name="title"></input>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"></input>
-                <button >submit</button>
-                <div>{title[0]}</div>
-                
             
 
         </div>
